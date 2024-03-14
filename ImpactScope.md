@@ -81,16 +81,16 @@ Our project has been rigorously tested and proven, initially employing AI models
 
 ### Overview
 
-- **Total Estimated Duration:** 13 weeks
-- **Full-Time Equivalent (FTE):**  4
-- **Total Costs:** 90,000 USD
+- **Total Estimated Duration:** 15 weeks
+- **Full-Time Equivalent (FTE):** 3 FTE (across 6 developers)
+- **Total Costs:** 78,200 USD
 
 
 ### Milestone 1 — Migration Design and Architecture Planning
 
-- **Estimated duration:** 1 week
-- **FTE:**  2
-- **Costs:** 5,000 USD
+- **Estimated duration:** 2 week
+- **FTE:**  3
+- **Costs:** 6,450 USD (6 contributors)
 
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -105,8 +105,8 @@ Our project has been rigorously tested and proven, initially employing AI models
 ### Milestone 2 — Migration and Development
 
 - **Estimated duration:** 4 weeks
-- **FTE:**  3.5
-- **Costs:** 40,000 USD
+- **FTE:**  3
+- **Costs:** 23,580 USD (6 contributors)
   
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -126,8 +126,8 @@ Our project has been rigorously tested and proven, initially employing AI models
 ### Milestone 3 — Testing and Deployment
 
 - **Estimated duration:** 4 weeks
-- **FTE:**  2.5
-- **Costs:** 25,000 USD
+- **FTE:**  3
+- **Costs:** 23,580 USD (6 contributors)
 
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -145,8 +145,8 @@ Our project has been rigorously tested and proven, initially employing AI models
 ### Milestone 4 — Interface Improvement and User Testing
 
 - **Estimated duration:** 3 weeks
-- **FTE:**  1.5
-- **Costs:** 15,000 USD
+- **FTE:**  3
+- **Costs:** 13,590 USD (6 contributors)
 
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -161,9 +161,9 @@ Our project has been rigorously tested and proven, initially employing AI models
 
 ### Milestone 5 — Outreach and Initial Partnerships
 
-- **Estimated duration:** 1 week
-- **FTE:**  1
-- **Costs:** 5,000 USD
+- **Estimated duration:** 2 week
+- **FTE:**  3
+- **Costs:** 11,000 USD (6 contributors)
 
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
