@@ -122,11 +122,11 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 - **Total Costs:** 24,300 USD
 
 
-### Milestone 1 — Preliminary Migration and Functional Integration
+### Milestone 1 — Data Ingestion and Hashing Module
 
-- **Estimated Duration:** 3 weeks
+- **Estimated Duration:** 4 weeks
 - **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 6,700 USD
+- **Costs:** 6,000 USD
 
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -135,16 +135,16 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 | 0c. | Testing | Unit testing will be applied to ensure reliability. Documentation of tests and results will be provided |
 | 0d. | Video | We will provide a video demonstration that will illustrate all of the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** in English and Spanish that explains what was built and how it can benefit other projects |
-| 1. | Project Setup | Setup project repository, selecting Substrate version and configuring the initial environmental setup for development. |
-| 2. | Migration Plan | Document detailing the strategy for migrating GWI functionalities to Substrate, including smart contracts revision to suit Substrate's paradigm. |
-| 3. | Architecture Design | A comprehensive document describing the new system architecture on Substrate, including module interactions, data flow diagrams, and storage solutions. |
+| 1. | Data Ingestion Module | Design and implement a versatile module capable of ingesting information from various public sources such as websites, social media platforms, and databases. This includes developing efficient data retrieval and preprocessing mechanisms. |
+| 2. | Hash Generation | Incorporate a mechanism directly into the system that autonomously creates a distinct hash for every unit of data entered. These hashes act as individual markers, establishing a secure verification layer that guards against data tampering. |
+| 3. | Module Documentation | Provide comprehensive documentation outlining the module's design, workflow, and integration guide. This will facilitate future enhancements and ensure ease of use for developers. |
 
 
-### Milestone 2 — Enhanced Data Verification and Transparency
+### Milestone 2 — Blockchain Integration
 
-- **Estimated Duration:** 4 weeks
+- **Estimated Duration:** 5 weeks
 - **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 8,000 USD
+- **Costs:** 9,300 USD
   
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -153,17 +153,15 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 | 0c. | Testing | Unit testing will be applied to ensure reliability. Documentation of tests and results will be provided |
 | 0d. | Video | We will provide a video demonstration that will illustrate all of the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** in English and Spanish that explains what was built and how it can benefit other projects |
-| 1. | Data Ingestion Module | Development of a module for ingesting public data from multiple sources with hashing functionality to generate unique identifiers for each data piece. |
-| 2. | Blockchain Integration | Implementing smart contracts on Substrate for storing data hashes, ensuring data integrity, and enforcing immutability. |
-| 3. | Data Storage Solution | Integration with IPFS for storing original data, retrieving information through unique hashes stored on the blockchain. |
-| 4. | Verification Mechanism | Development of an on-chain verification mechanism allowing users to verify the integrity and authenticity of public information. |
-| 5. | Docker Container | We will provide a Docker container that encapsulates the entire software stack for easy deployment by end-users.  |
+| 1. | Substrate Smart Contract Development | Develop smart contracts on the Substrate blockchain for managing the storage of data hashes. The contracts will include functions for adding new hashes, retrieving existing ones, and ensuring data integrity. |
+| 2. | Smart Contract Testing | Perform rigorous testing of the smart contracts to ensure reliability, security, and performance. |
+| 3. | Blockchain Integration Documentation | Provide detailed documentation for the smart contracts and the integration process with the Substrate blockchain. This will cover contract functionalities, usage examples, and best practices for developers and users. |
 
-### Milestone 3 — Interface Development, Testing, and Deployment
+### Milestone 3 — IPFS Data Storage Integration
 
 - **Estimated Duration:** 5 weeks
 - **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 7,200 USD
+- **Costs:** 9,300 USD
 
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -172,27 +170,9 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 | 0c. | Testing | Unit testing will be applied to ensure reliability. Documentation of tests and results will be provided |
 | 0d. | Video | We will provide a video demonstration that will illustrate all of the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** in English and Spanish that explains what was built and how it can benefit other projects |
-| 1. | User Interface | Development of a user-friendly interface for interacting with the GWI, including functionalities for data submission, verification, and reporting. |
-| 2. | API Development | Creation of an API to enable third-party services to access verified information and incorporate GWI functionalities into their platforms. |
-| 3. | System Testing | Comprehensive testing covering all developed functionalities to ensure reliability and performance on the Substrate framework. |
-| 4. | Deployment Guidelines | Documentation providing guidelines for deploying GWI on Substrate, including system configuration, node setup, and smart contract deployment. |
-
-### Milestone 4 — Outreach, Partnerships, and Education
-
-- **Estimated Duration:** 2 weeks
-- **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 3,500 USD
-
-| Number | Deliverable             | Specification |
-| ------:|-------------------------|---------------|
-| 0a. | License | MIT |
-| 0b. | Documentation | We will provide **inline documentation** of the code and a basic **tutorial** of the modules delivered in this Milestone.|
-| 0c. | Testing | Unit testing will be applied to ensure reliability. Documentation of tests and results will be provided |
-| 0d. | Video | We will provide a video demonstration that will illustrate all of the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article** in English and Spanish that explains what was built and how it can benefit other projects |
-| 1. | Outreach Plan | Implementation of an outreach plan targeting stakeholders within the Polkadot ecosystem to promote GWI and encourage adoption. |
-| 2. | Partnership Development | Initiating dialogues with potential partners for collaboration and integration opportunities to enhance the project's reach and impact. |
-| 3. | Educational Content | Creation of educational materials (articles, webinars, workshops) to demonstrate the value of GWI and educate on using blockchain for sustainability. |
+| 1. | IPFS Integration | Integrate the data ingestion module with the InterPlanetary File System (IPFS) for storing the original publicly available information. This includes configuring IPFS nodes and establishing protocols for data upload and retrieval linked to the respective hashes on the Substrate blockchain. |
+| 2. | Data Retrieval Mechanism | Develop and implement a secure, efficient mechanism for retrieving stored data from IPFS using the unique hashes stored on the blockchain. |
+| 3. | Integration Documentation and Tutorial | Create comprehensive documentation and tutorial materials detailing the workflow, security considerations, and step-by-step guides for users and developers. |
 
 ## Future Plans
 
