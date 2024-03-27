@@ -117,16 +117,31 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 
 ### Overview
 
-- **Total Estimated Duration:** 14 weeks
+- **Total Estimated Duration:** 15 weeks
 - **Full-Time Equivalent (FTE):** 3 FTE (across 7 developers)
-- **Total Costs:** 24,300 USD
+- **Total Costs:** 40,800 USD
 
+### Milestone 1 — Blockchain Integration and Data Verification
 
-### Milestone 1 — Data Ingestion and Hashing Module
+- **Estimated Duration:** 3 weeks
+- **FTE:** 3.5 FTE (across 7 developers)
+- **Costs:** 9,300 USD
+  
+| Number | Deliverable             | Specification |
+| ------:|-------------------------|---------------|
+| 0a. | License | MIT |
+| 0b. |  Documentation | Provide detailed documentation for the smart contracts and the integration process with the Substrate blockchain. This will cover contract functionalities, usage examples, and best practices for developers and users. |
+| 0c. | Video | We will provide a video demonstration that will illustrate all of the functionality delivered with this milestone. |
+| 0d. | Article | We will publish an **article** in English and Spanish that explains what was built and how it can benefit other projects |
+| 1. | Substrate Smart Contract Development | Develop smart contracts on the Substrate blockchain for managing the storage of data hashes. Utilize a built-in hashing module provided by the Substrate environment to autonomously create a distinct hash for every unit of data entered. These hashes will act as individual markers, establishing a secure verification layer that guards against data tampering. |
+| 2. | Smart Contract Testing | Perform rigorous testing of the smart contracts to ensure reliability, security, and performance. |
+
+### Milestone 2 — Data Ingestion (Offchain Worker)
 
 - **Estimated Duration:** 4 weeks
 - **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 6,000 USD
+- **Costs:** 12,200 USD
+
 
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -136,30 +151,11 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 | 0d. | Video | We will provide a video demonstration that will illustrate all of the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** in English and Spanish that explains what was built and how it can benefit other projects |
 | 1. | Data Ingestion Module | Design and implement a versatile module capable of ingesting information from various public sources such as websites, social media platforms, and databases. This includes developing efficient data retrieval and preprocessing mechanisms. |
-| 2. | Hash Generation | Incorporate a mechanism directly into the system that autonomously creates a distinct hash for every unit of data entered. These hashes act as individual markers, establishing a secure verification layer that guards against data tampering. |
-| 3. | Module Documentation | Provide comprehensive documentation outlining the module's design, workflow, and integration guide. This will facilitate future enhancements and ensure ease of use for developers. |
+| 2. | Offchain Worker for Verification | Implement an offchain worker to monitor changes in information sources. This system will continuously scan public sources for any updates or modifications to the stored data. Upon detecting any changes, the system will trigger alerts to notify users about the potential modifications. |  
 
+### Milestone 3 — Decentralized Data Storage
 
-### Milestone 2 — Blockchain Integration
-
-- **Estimated Duration:** 5 weeks
-- **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 9,300 USD
-  
-| Number | Deliverable             | Specification |
-| ------:|-------------------------|---------------|
-| 0a. | License | MIT |
-| 0b. | Documentation | We will provide **inline documentation** of the code and a basic **tutorial** of the modules delivered in this Milestone.|
-| 0c. | Testing | Unit testing will be applied to ensure reliability. Documentation of tests and results will be provided |
-| 0d. | Video | We will provide a video demonstration that will illustrate all of the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article** in English and Spanish that explains what was built and how it can benefit other projects |
-| 1. | Substrate Smart Contract Development | Develop smart contracts on the Substrate blockchain for managing the storage of data hashes. The contracts will include functions for adding new hashes, retrieving existing ones, and ensuring data integrity. |
-| 2. | Smart Contract Testing | Perform rigorous testing of the smart contracts to ensure reliability, security, and performance. |
-| 3. | Blockchain Integration Documentation | Provide detailed documentation for the smart contracts and the integration process with the Substrate blockchain. This will cover contract functionalities, usage examples, and best practices for developers and users. |
-
-### Milestone 3 — IPFS Data Storage Integration
-
-- **Estimated Duration:** 5 weeks
+- **Estimated Duration:** 4 weeks
 - **FTE:** 3.5 FTE (across 7 developers)
 - **Costs:** 9,300 USD
 
@@ -174,6 +170,23 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 | 2. | Data Retrieval Mechanism | Develop and implement a secure, efficient mechanism for retrieving stored data from IPFS using the unique hashes stored on the blockchain. |
 | 3. | Integration Documentation and Tutorial | Create comprehensive documentation and tutorial materials detailing the workflow, security considerations, and step-by-step guides for users and developers. |
 
+
+#### Milestone 4 — User Interface and API
+- **Estimated Duration:** 4 weeks
+- **FTE:** 3.5 FTE (across 7 developers)
+- **Costs:** 10,000 USD
+
+| Number | Deliverable             | Specification |
+| ------:|-------------------------|---------------|
+| 0a. | License | MIT |
+| 0b. | Documentation | We will provide **inline documentation** of the code and a basic **tutorial** of the modules delivered in this Milestone.|
+| 0c. | Video | We will provide a video demonstration that will illustrate all of the functionality delivered with this milestone. |
+| 0d. | Article | We will publish an **article** in English and Spanish that explains what was built and how it can benefit other projects |
+| 1.     | User Interface         | Develop a user-friendly interface for easy access to GWI’s functionalities, enhancing user engagement and accessibility.|
+| 2.     | Integration Testing    | Rigorous testing of the user interface and API to ensure seamless integration and functionality. |
+| 3.     | API Development  | Design and implement API endpoints for accessing and retrieving public information stored on the blockchain. |
+
 ## Future Plans
 
 The migration of GWI to the Substrate framework and the Polkadot ecosystem opens up new avenues for growth and impact. Emphasis will be on expanding the technological capabilities, refining AI models, and forging more partnerships to leverage blockchain for sustainability and transparency.
+****
