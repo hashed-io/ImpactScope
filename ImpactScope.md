@@ -117,15 +117,15 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 
 ### Overview
 
-- **Total Estimated Duration:** 15 weeks
-- **Full-Time Equivalent (FTE):** 3 FTE (across 7 developers)
-- **Total Costs:** 40,800 USD
+- **Total Estimated Duration:** 14 weeks
+- **FTE:** 2 FTE (across 5 developers)
+- **Total Costs:** 49,280 USD
 
 ### Milestone 1 — Blockchain Integration and Data Verification
 
 - **Estimated Duration:** 3 weeks
-- **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 9,300 USD
+- **FTE:** 2 FTE (across 5 developers)
+- **Costs:** 10,560 USD
   
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -139,8 +139,8 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 ### Milestone 2 — Data Ingestion (Offchain Worker)
 
 - **Estimated Duration:** 4 weeks
-- **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 12,200 USD
+- **FTE:** 2 FTE (across 5 developers)
+- **Costs:** 14,080 USD
 
 
 | Number | Deliverable             | Specification |
@@ -156,8 +156,8 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 ### Milestone 3 — Decentralized Data Storage
 
 - **Estimated Duration:** 4 weeks
-- **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 9,300 USD
+- **FTE:** 2 FTE (across 5 developers)
+- **Costs:** 14,080 USD
 
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
@@ -172,9 +172,9 @@ The transition of GWI to the Substrate platform marks a new phase, moving beyond
 
 
 #### Milestone 4 — User Interface and API
-- **Estimated Duration:** 4 weeks
-- **FTE:** 3.5 FTE (across 7 developers)
-- **Costs:** 10,000 USD
+- **Estimated Duration:** 3 weeks
+- **FTE:** 2 FTE (across 5 developers)
+- **Costs:** 10,560 USD
 
 | Number | Deliverable             | Specification |
 | ------:|-------------------------|---------------|
